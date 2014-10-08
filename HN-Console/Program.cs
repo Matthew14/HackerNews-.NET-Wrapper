@@ -10,8 +10,12 @@ namespace HN_Console
             var hackerNews = new HackerNews();
             hackerNews.GetTopStories();
 
-
-            var stories = hackerNews.GetTopStories().Take(10).Select(hackerNews.GetStoryById).ToList();
+            var stories = hackerNews.GetTopStories().Take(3).Select(hackerNews.GetStoryById).ToList();
+            var user = hackerNews.GetUserById("dhouston");
+            var comment = hackerNews.GetCommentById(2921983);
+            var poll = hackerNews.GetPollById(126809);
+            var pollOpt = hackerNews.GetPollOptionById(160705);
+            var maxItemId = hackerNews.GetMaxItemId();
         }
     }
 }

@@ -16,6 +16,7 @@ namespace HN_Console
             var poll = hackerNews.GetPollById(126809);
             var pollOpt = hackerNews.GetPollOptionById(160705);
             var maxItemId = hackerNews.GetMaxItemId();
+            var item = hackerNews.GetItemById(126809);
         }
     }
 }

@@ -21,6 +21,14 @@ namespace HN_Wrapper
             return response.Data;
         }
 
+        public Item GetItemById(long id)
+        {
+            var resource = string.Format(HackerNewsConstants.Item, id);
+            var request = new RestRequest(resource);
+            var response = _restClient.Execute<Item>(request);
+            return response.Data;
+        }
+
         public User GetUserById(string id)
         {
             var resource = string.Format(HackerNewsConstants.User, id);

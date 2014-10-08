@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HN_Wrapper
+﻿namespace HN_Wrapper
 {
     public class PollPart : Item
     {

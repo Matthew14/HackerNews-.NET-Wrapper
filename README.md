@@ -5,11 +5,7 @@ A very basic wrapping of the hacker news [api](https://github.com/HackerNews/API
 
 There's no error checking or anything yet, so be warned.
 
-<<<<<<< HEAD
-Uses the [RestSharp](http://restsharp.org/) rest client to expose methods on the api
-=======
 Uses the [ResrSharp](http://restsharp.org/) rest client to expose methods on the api
->>>>>>> 4993058b0b2295f78a10fe82a2f9876f8098cb9d
 
 The console project shows basic usage examples.
 

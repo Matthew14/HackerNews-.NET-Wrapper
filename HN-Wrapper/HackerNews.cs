@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using RestSharp;
 
-namespace HN_Wrapper
+namespace HackerNewsWrapper
 {
     public class HackerNews
     {

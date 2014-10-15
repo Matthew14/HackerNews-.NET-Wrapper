@@ -1,7 +1,6 @@
 ﻿using System.Linq;
-using HN_Wrapper;
 
-namespace HN_Console
+namespace HackerNewsWrapper.ConsoleApp
 {
     static class Program
     {

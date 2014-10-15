@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HN_Wrapper
+namespace HackerNewsWrapper
 {
     public class Story : Item
     {

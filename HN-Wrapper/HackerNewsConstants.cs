@@ -1,4 +1,4 @@
-﻿namespace HN_Wrapper
+﻿namespace HackerNewsWrapper
 {
     public static class HackerNewsConstants
     {

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HN-Wrapper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("HackerNewsWrapper")]
+[assembly: AssemblyDescription("A simple wrapper for the hacker news api")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HN-Wrapper")]
+[assembly: AssemblyProduct("HackerNewsWrapper")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

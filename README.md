@@ -6,3 +6,5 @@ A very basic wrapping of the hacker news [api](https://github.com/HackerNews/API
 There's no error checking or anything yet, so be warned.
 
 The console project shows basic usage examples.
+
+[Latest Build](http://www.matthewoneill.com/uploads/HackerNewsWrapper.zip)

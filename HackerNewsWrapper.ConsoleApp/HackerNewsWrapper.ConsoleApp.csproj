@@ -48,8 +48,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HN-Wrapper\HackerNewsWrapper.csproj">
-      <Project>{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}</Project>
+    <ProjectReference Include="..\HackerNewsWrapper\HackerNewsWrapper.csproj">
+      <Project>{8bde8513-d44f-4af9-bde0-623fef0f7bea}</Project>
       <Name>HackerNewsWrapper</Name>
     </ProjectReference>
   </ItemGroup>

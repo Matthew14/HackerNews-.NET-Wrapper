@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsWrapper", "HN-Wrapper\HackerNewsWrapper.csproj", "{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsWrapper.ConsoleApp", "HackerNewsWrapper.ConsoleApp\HackerNewsWrapper.ConsoleApp.csproj", "{D676223F-E97C-4904-B934-31981D44AADB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsWrapper.ConsoleApp", "HN-Console\HackerNewsWrapper.ConsoleApp.csproj", "{D676223F-E97C-4904-B934-31981D44AADB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNewsWrapper", "HackerNewsWrapper\HackerNewsWrapper.csproj", "{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D676223F-E97C-4904-B934-31981D44AADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D676223F-E97C-4904-B934-31981D44AADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D676223F-E97C-4904-B934-31981D44AADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D676223F-E97C-4904-B934-31981D44AADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDE8513-D44F-4AF9-BDE0-623FEF0F7BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

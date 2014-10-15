@@ -9,6 +9,7 @@
         
         public const string Item = "item/{0}.json";
         public const string User = "user/{0}.json";
-        
+        public const string Changes = "updates.json";
+
     }
 }

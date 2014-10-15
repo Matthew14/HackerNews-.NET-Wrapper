@@ -13,6 +13,18 @@ namespace HackerNewsWrapper
             _restClient = new RestClient(HackerNewsConstants.Url);
         }
 
+        /// <summary>
+        /// gets the latest changes made on hacker news (I think)
+        /// </summary>
+        /// <returns>A Changes object containing changed items and profiles</returns>
+        public Changes GetChanges()
+        {
+            var resource = string.Format(HackerNewsConstants.Changes);
+            var request = new RestRequest(resource);
+            var response = _restClient.Execute<Changes>(request);
+            return response.Data;
+        }
+
         public Comment GetCommentById(long id)
         {
             var resource = string.Format(HackerNewsConstants.Item, id);

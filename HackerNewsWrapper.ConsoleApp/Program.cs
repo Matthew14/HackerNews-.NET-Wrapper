@@ -16,6 +16,7 @@ namespace HackerNewsWrapper.ConsoleApp
             var pollOpt = hackerNews.GetPollOptionById(160705);
             var maxItemId = hackerNews.GetMaxItemId();
             var item = hackerNews.GetItemById(126809);
+            var changes = hackerNews.GetChanges();
         }
     }
 }

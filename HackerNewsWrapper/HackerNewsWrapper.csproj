@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Changes.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="HackerNews.cs" />
     <Compile Include="HackerNewsConstants.cs" />
